@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: config
-  annotations:
-    kpt.dev/container: 'gcr.io/kpt-functions/validate-rolebinding:demo'
-data:
-  subject_name: bob@foo-corp.com
